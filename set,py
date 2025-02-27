@@ -1,0 +1,24 @@
+# Belajar Set
+
+# list  => []
+# tuple => ()
+# set   => {}
+
+# Membuat set dengan elemen unik
+nama = {"Alief", "Chandra", "Alief", "Chandra", "Darmawan"}
+
+# Menambahkan elemen ke dalam set
+nama.add("Mary")  # "Mary" hanya akan ditambahkan sekali karena set tidak mengizinkan duplikasi
+
+# Menampilkan elemen dalam set
+print("Daftar Nama dalam Set:")
+for data in nama:
+    print(data)
+
+# Menghapus elemen dari set
+nama.remove("Darmawan")
+nama.remove("Alief")
+
+# Menampilkan set setelah penghapusan
+print("\nSetelah penghapusan:")
+print(nama)
